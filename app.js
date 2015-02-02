@@ -7,7 +7,7 @@ app.set('views', __dirname + '/views');
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function( req, res ){
-  res.render('index', { title: 'Express Sample' });
+  res.render('index', { title: 'Express Sample5' });
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
