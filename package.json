@@ -6,7 +6,8 @@
     "start": "node app"
   },
   "dependencies": {
-    "express": "*"
+    "express": "*",
+    "jade": "*"
   }
 }
 
