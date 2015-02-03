@@ -1,7 +1,8 @@
 #! /bin/sh
 
-export NODE_ENV=production
-export PORT=8080
+#export NODE_ENV=production
+export NODE_ENV=development
+export PORT=80
 
 supervisor -w app.js app
 #node app
