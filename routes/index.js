@@ -1,5 +1,5 @@
 var routes = {
-  home: require('./home'),
+  top: require('./top'),
   users: require('./users')
 };
 

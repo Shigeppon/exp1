@@ -4,6 +4,6 @@
 export NODE_ENV=development
 export PORT=80
 
-supervisor -w app.js app
+supervisor -w app.js,routes app
 #node app
 
